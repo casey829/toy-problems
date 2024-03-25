@@ -12,11 +12,11 @@ function gradeCalculator(marks) {
     }
   }
   
-  function studentGradeGenerator() {
+  function gradeStudentGenerator() {
     const mark = parseFloat(prompt('Enter the student mark (0-100):'));
   
     if (isNaN(mark) || mark < 0 || mark > 100) {
-      return 'Invalid input. Please enter a valid mark between 0 and 100.';
+      return 'Please enter a valid mark between 0 and 100.';
     }
   
     const grade = gradeCalculator(mark);
@@ -24,5 +24,5 @@ function gradeCalculator(marks) {
   }
   
   
-  const result = studentGradeGenerator();
+  const result = gradeStudentGeneratorGenerator();
   console.log(result);
