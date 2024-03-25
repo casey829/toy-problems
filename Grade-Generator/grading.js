@@ -24,5 +24,5 @@ function gradeCalculator(marks) {
   }
   
   
-  const result = gradeStudentGeneratorGenerator();
+  const result = gradeStudentGenerator();
   console.log(result);
